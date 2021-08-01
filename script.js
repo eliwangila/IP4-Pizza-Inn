@@ -97,3 +97,18 @@ $(document).ready((e) => {
         }
 
     });
+
+    //reseting the form order
+    function resetForm() {
+        cartItems = [];
+        cartTotal = 0;
+
+        document.getElementById('orderList').innerHTML = " ";
+        document.getElementById('cartItems').innerHTML = " ";
+        document.getElementById('cartTotal').innerHTML = " ";
+        document.getElementById('deliveryCost').innerHTML = " ";
+
+    }
+
+
+});
