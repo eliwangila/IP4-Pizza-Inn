@@ -9,13 +9,13 @@ This project is a pizza Application program to demonstrate my knowledge in using
 
 
 ## Live Page 
-https://#/
+https://eliwangila.github.io/IP4-Pizza-Inn/
 
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://github.com/```
+* git clone ```https://eliwangila.github.com/```
 
 * cd pizza-in
 
