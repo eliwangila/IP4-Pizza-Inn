@@ -48,4 +48,17 @@ nav .navbar{
  #delivery-form {
     display: none;
     z-index: 9;
+  }
+  #order{
+    background-attachment: fixed;
+    background-image: url("/assets/pizza2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+  }
+  #order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 20px;
+    padding-left: 6%;
   } 
