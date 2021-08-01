@@ -12,3 +12,15 @@ html{
 body{
     font-family: Lato,Helvetica,Arial,Lucida Grande,sans-serif;
 }
+nav .navbar{
+    width: 100%;
+    padding-right: 0px;
+  }
+  .navbar-brand{
+    margin-right: 30%;
+    font-weight:800;
+  }
+  .nav-item a{
+    font-size: 20px;
+    font-weight: 700;
+  }
