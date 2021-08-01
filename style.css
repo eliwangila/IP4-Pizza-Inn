@@ -41,3 +41,7 @@ nav .navbar{
     border-radius: 10px;
     background: #fed401;
   }
+  #about-us{
+    /* background-color: #fed401; */
+    font-size: larger;
+ } 
