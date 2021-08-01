@@ -130,7 +130,6 @@
                                     <input name="pizzaSize" id="large" value="large" type="radio" /> Large
                                 </label>
                             </div>
-
                         </div>
 
                         <hr>
@@ -202,6 +201,33 @@
                         <button type="submit" id="inhouse" class="btn btn-success">Counter Delivery</button>
                         <button type="submit" id="homeDelivery" class="btn btn-info">Home Delivery</button>
                     </div>
+                    <div class="py-4" id="delivery-form">
+                        <form class="form-delivery" data-aos="fade-up">
+                            <h1>Delivery Address</h1>
+
+                            <div class="form-group">
+                                <label for="House Number">House Number</label>
+                                <input type="text" placeholder="House Number" class="form-control" name="houseNumber"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Estate">Estate</label>
+                                <input type="text" placeholder="Enter your Estate" class="form-control" name="estate"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNo">Phone Number</label>
+                                <input type="tel" placeholder="Phone number" class="form-control" name="phone" required>
+                            </div>
+
+                            <button type="submit" id="print" class="btn btn-info">Print Delivery Note</button>
+                            <button type="submit" id="closeForm" class="btn btn-danger">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
                 
 
 </body>
