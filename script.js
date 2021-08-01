@@ -36,3 +36,32 @@ Pizza.prototype.totalCost = function () {
             break;
     }
 };
+
+
+var cartItems = [];
+var cartTotal = 0;
+
+$(document).ready((e) => {
+    $("#print").click(function (event) {
+        event.preventDefault();
+        alert("Thank you for choosing Plantas Plate . Your order will be delivered shortly");
+        resetForm();
+    });
+
+    $("#close").click(function (event) {
+        event.preventDefault();
+        document.getElementById("delivery-form").style.display = "none";
+    });
+
+    $("#inhouse").click(function (event) {
+        event.preventDefault();
+        alert("Thank you for choosing Platas Plate . Your order will be delivered shortly");
+        resetForm();
+    });
+
+    $("#homeDelivery").click(function (event) {
+        event.preventDefault();
+        document.getElementById("delivery-form").style.display = "block";
+        resetForm();
+
+    });
