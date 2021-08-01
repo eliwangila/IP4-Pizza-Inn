@@ -8,7 +8,7 @@
 This project is a pizza Application program to demonstrate my knowledge in using functions and objects to create an interactive pizza ordering app.
 
 ## Secreenshot
-<img src=https:/raw.githubsercontent.com/eliwangila/IP4-Pizza-Inn/master/assets/-pizza2/ width="900px" height="440px">
+[<img src="assets/pizza.jpg">]() 
 
 ## Live Page 
 https://#/
