@@ -65,3 +65,10 @@ $(document).ready((e) => {
         resetForm();
 
     });
+
+        // checked  
+    $("#submit-btn").click(function (event) {
+        event.preventDefault();
+        var size = $("input[name='pizzaSize']:checked").val();
+        var crust = $("input[name='pizzaCrust']:checked").val();
+        var topping = $("#topping").children("option:selected").val();
