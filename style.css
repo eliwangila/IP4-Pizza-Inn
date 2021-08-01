@@ -61,4 +61,15 @@ nav .navbar{
     background-color: rgba(0, 0, 0, 0.8);
     padding-bottom: 20px;
     padding-left: 6%;
+  }
+  .subfooter {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ddd;
+    background: #063938;
+    padding: 30px 0;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 50px;
   } 
