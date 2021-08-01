@@ -51,7 +51,7 @@ nav .navbar{
   }
   #order{
     background-attachment: fixed;
-    background-image: url("/assets/pizza2.jpg");
+    background-image: url("./assets/pizza2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
