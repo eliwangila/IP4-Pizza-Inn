@@ -72,3 +72,28 @@ $(document).ready((e) => {
         var size = $("input[name='pizzaSize']:checked").val();
         var crust = $("input[name='pizzaCrust']:checked").val();
         var topping = $("#topping").children("option:selected").val();
+
+        //create pizza and adding to the cart
+        var pizza = new Pizza(size, crust, topping);
+        pizza.totalCost();
+        cartTotal += pizza.price;
+
+        var order = `<div class="alert alert-secondary" role="alert">
+        ${pizza.size} ${pizza.topping} with ${pizza.crust} crust
+        <span class="float-right font-weight-bold">${pizza.price}/=</span>
+      </div>`;
+
+      var total = `Cart Total: <span class="float-right font-weight-bold">${cartTotal}</span>`;
+
+        document.getElementById('orderList').innerHTML = order;
+        document.getElementById('cartTotal').innerHTML = total;
+        cartItems.push(order);
+
+        document.getElementById('cartItems').innerHTML = " ";
+
+        for (var i = 0; i < cartItems.length; i++) {
+            orderLi = `<p class="my-1">${cartItems[i]}</p>`;
+            document.getElementById('cartItems').innerHTML += orderLi;
+        }
+
+    });
